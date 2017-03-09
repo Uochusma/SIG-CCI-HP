@@ -1,0 +1,74 @@
+/*すべてのページに共通する内容(ヘッダー、パンくずリスト)を記述*/
+.pankuzu {/*pankuzuクラス*/
+  margin: 50px 0 0;
+  text-align: left;;
+}
+
+
+.txt {/*txtクラス*/
+  margin: 50px 0 0;
+  text-align: center;
+}
+
+li[class="headMenu"] a{/* class="headMenu" を持つ li の中の a 要素*/
+  color: lightSeaGreen;
+}
+
+div#headerArea {
+    font-size : 87.5%;
+}
+
+@media screen and (min-width : 768px){
+    div#headerArea{ font-size : 100%;}
+}
+
+@media screen and (min-width : 1024px) {
+    div#headerArea{ font-size : 140%};
+}
+
+div#headerArea {/*div の内 id=headerArea であるもの*/
+    position: fixed !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: #fff;
+    z-index: 3;
+}
+
+li.headMenu{/*li の内 class=headMenu であるもの*/
+  display: block;
+  float: left;
+  width:16%;/*width:250px;*/
+  height :100%;/*height:50px;*/
+  background-color:#000000;
+  border-style: double;
+  border-width: thin;
+  border-color: white;
+  text-align: center;
+  color: lightSeaGreen;
+}
+
+li.headMenu:hover{/*li の内 class=headMenu であるものにマウスが乗った時　書かれている要素のみ上書きされる*/
+  color: indianRed;
+  text-decoration: none;
+}
+
+* html div#contentsArea{
+    height: 100%;
+    overflow: auto;
+}
+
+div#footerArea {/*div の内 id=footerArea であるもの*/
+    position: fixed !important;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #4E9ABE;
+    color: #fff;
+    z-index: 3;
+}
