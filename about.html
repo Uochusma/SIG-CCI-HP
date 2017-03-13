@@ -1,56 +1,73 @@
+<!DOCTYPE html>
 <html lang="ja">
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>第２回　研究会について</title>
-<meta name="viewport" content="width=device-width", initial-scale=1">
-</head>
-  <body>
-    <!-- ヘッダー開始 -->
-    <div id="wrap" class="container-fluid">
-        <div class="row">
-          <div id = "headerArea" class="col-sm-2 col-xs-12">
-            <ul>
-              <li class = "headMenu"><a href = "index.html">ホーム</a></li>
-              <li class = "headMenu"><a href = "about.html">研究会について</a></li>
-              <li class = "headMenu"><a href = "prepare.html">対馬についての予習</a></li>
-              <li class = "headMenu"><a href = "traffic.html">交通案内</a></li>
-              <li class = "headMenu">エントリーフォーム</li>
-              <li class = "headMenu">直前告知内容</li>
-            </ul>
-          <!-- サイドメニュー開始 -->
-            <input type="checkbox" id="navTgl">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>第２回　研究会について</title>
+  </head>
+<body>
+  <div id="wrap" class="container-fluid">
+    <!-- ヘッダー(ナビバー )開始 -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <!--タイトル-->
+          <a class="navbar-brand" href="http://www.itolab.nitech.ac.jp/SIG-CCI/">市民共創知研究会</a>
+          <!--トグルボタンの設置-->
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-content">
+            <span class="icon-bar"></span><!-- トグルボタンの横棒　その１  -->
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
 
-            <label for="navTgl" class="open">≡</label>
-            <label for="navTgl" class="close"></label>
-            <nav class="menu">
-              <h2>menu</h2>
-              <ul>
-                <li><a href="#article1">伊藤先生メッセージ</a></li>
-                <li><a href="#article2">実行委員より</a></li>
-                <li><a href="#article3">会の概要・目的</a></li>
-                <li><a href="#article4">スケジュール(案)</a></li>
-                <li><a href="#article5">みらいらぼの紹介</a></li>
-                <li><a href="#article6">共創・共通善とは</a></li>
-              </ul>
-            </nav>
-            <!-- サイドメニュー終了 -->
+        <div id="nav-content" class="collapse navbar-collapse">
+          <!--リンクのリスト メニューリスト-->
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">ホーム</a></li>
+            <li><a href="about.html">研究会について</a></li>
+            <li><a href="prepare.html">対馬についての予習</a></li>
+            <li><a href="traffic.html">交通案内</a></li>
+            <li><a>エントリーフォーム</a></li>
+          </ul>
+        </div>
+
+        <!-- サイドメニュー開始 -->
+        <input type="checkbox" id="navTgl" class="navbar-toggle">
+        <label for="navTgl" class="open">≡</label>
+        <label for="navTgl" class="close"></label>
+        <nav class="menu">
+          <h2>menu</h2>
+          <ul>
+            <li><a href="#" class="scroll">ページトップ</a></li>
+            <li><a href="#article1" class="scroll">伊藤先生メッセージ</a></li>
+            <li><a href="#article2" class="scroll">実行委員より</a></li>
+            <li><a href="#article3" class="scroll">会の概要・目的</a></li>
+            <li><a href="#article4" class="scroll">スケジュール(案)</a></li>
+            <li><a href="#article5" class="scroll">みらいらぼの紹介</a></li>
+            <li><a href="#article6" class="scroll">共創・共通善とは</a></li>
+          </ul>
+        <!-- サイドメニュー終了 -->
+        </nav>
       </div>
-  </div>
-  <!-- ヘッダー終了 -->
-        <!-- ヘッダー終了 -->
+    </nav>
+    <!-- ヘッダー終了 -->
 
         <!-- パンくずリスト開始 -->
         <div>
           <p class="pankuzu">
-            <a href= "main.html">第２回</a>
+            <a href="http://www.itolab.nitech.ac.jp/SIG-CCI/">市民共創知 研究会 Web</a>
+            &nbsp;&nbsp;&gt;&nbsp;&nbsp;
+            <a href="traffic.html">第２回 研究会 Web</a>
             &nbsp;&nbsp;&gt;&nbsp;&nbsp;
             <a href="about.html">研究会について</a>
           </p>
         </div>
         <!-- パンくずリスト終了 -->
-
-      <div class="contents">
+    <!-- 主文開始 -->
+    <div class="contents">
         <article>
           <h1>研究会について</h1>
           <section id="article1">
@@ -102,8 +119,25 @@
           </section>
         </article>
   </div>
-</div>
-
+  <!-- 主文終了 -->
+  <!-- フッター開始 -->
+    <nav class="navbar navbar-default navbar-fixed-bottom">
+      <div class="container-fluid">
+         <div class="navbar-brand">
+           <p>
+             Copyright © 2016 <a>JSAI SIG-CCI</a>. Some Rights Reserved.<br>
+           </p>
+        </div>
+        <div class="navbar-brand">
+          <p>
+            <a href="#" class="scroll">トップに戻る</a>
+          </p>
+        </div>
+      </div>
+     </nav>
+  <!-- フッター終了 -->
+  </div>
+  <!-- 通常画面終了 -->
 
     <!-- BootstrapのCSS読み込み -->
      <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
@@ -111,8 +145,13 @@
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
      <!-- BootstrapのJS読み込み -->
      <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
-     <link rel="stylesheet" href="Common.css">
+     <script src="Scroll.js"></script>
+     <link rel="stylesheet" href="BS_OverWrite.css">
+     <link rel="stylesheet" href="FlexBoxStyle.css">
+     <link rel="stylesheet" href="base1.css">
+     <link rel="stylesheet" href="Loading.css">
      <link rel="stylesheet" href="SideMenu.css">
+     <link rel="stylesheet" href="Common.css">
      <link rel="stylesheet" href="../css/style.css" />
      <link rel="stylesheet" href="../css/confs/sig-cci1.css" />
      <link rel="stylesheet" href="../css/ihover.css">

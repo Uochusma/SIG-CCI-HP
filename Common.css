@@ -1,13 +1,38 @@
 /*すべてのページに共通する内容(ヘッダー、パンくずリスト)を記述*/
-.pankuzu {/*pankuzuクラス*/
-  margin: 50px 0 0;
-  text-align: left;;
+body{
+  padding-bottom: 15%;
 }
 
+.pankuzu {/*pankuzuクラス*/
+  margin: 0;
+  text-align: left;
+  padding-top: 10%;
+}
+
+@media screen and (max-width : 800px) {/*横幅が800pxを下回った時*/
+    .pankuzu{ padding-top: 15%;}
+}
+
+@media screen and (max-width : 420px){/*横幅が420pxを下回った時*/
+    .pankuzu{ padding-top: 20%;}
+}
+
+@media screen and (min-width : 1000px) {/*横幅が1000pxを上回った時*/
+    .pankuzu{ padding-top: 5%;}
+}
+
+@media screen and (min-width : 2000px) {/*横幅が2000pxを上回った時*/
+    .pankuzu{ padding-top: 2.5%;}
+}
 
 .txt {/*txtクラス*/
-  margin: 50px 0 0;
+  margin:0;
   text-align: center;
+  padding-bottom: 60px;
+}
+
+img{
+  max-width: 100%;
 }
 
 li[class="headMenu"] a{/* class="headMenu" を持つ li の中の a 要素*/
@@ -35,7 +60,7 @@ div#headerArea {/*div の内 id=headerArea であるもの*/
     height: 50px;
     background-color: black;
     color: #fff;
-    z-index: 3;
+    z-index: 1031;
 }
 
 li.headMenu{/*li の内 class=headMenu であるもの*/
@@ -70,5 +95,27 @@ div#footerArea {/*div の内 id=footerArea であるもの*/
     height: 50px;
     background-color: #4E9ABE;
     color: #fff;
-    z-index: 3;
+    z-index: 1031;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-brand {
+    float: left;
+    height: 50px;
+    padding-top: 15px;
+    padding-left: 60px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .navbar-brand {
+    float: left;
+    height: 50px;
+    padding-top: 15px;
+    padding-left: 80px;
+    font-size: 18px;
+    line-height: 20px;
+  }
 }

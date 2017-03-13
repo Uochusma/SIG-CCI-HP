@@ -34,7 +34,7 @@ label {
 }
 
 .open {/*ドロワーボタンが開く前の状態*/
-  z-index: 4;
+  z-index: 1036;/**ヘッダーバーの z-index が 1030 なのでそれ以上にする必要がある*/
   width: 50px;
   height: 50px;
   color: white;
@@ -67,15 +67,15 @@ label {
 }
 
 /* :::::: drawer menu :::::: */
-
+/*現れるサイドメニュー*/
 .menu {
-  z-index: 1;
+  z-index: 1035;/**ヘッダーバーの z-index が 1030 なのでそれ以上にする必要がある*/
   position: fixed;
   overflow: auto;
   top: 0;
   left: 0;
   width: 250px;
-  height: 100%;
+  height: 100%;/*縦いっぱいに広げる*/
   padding: 10px;
   background-color: rgba(0,0,0,.6);
   -webkit-transform: translateX(-100%);
