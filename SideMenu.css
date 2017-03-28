@@ -26,7 +26,7 @@
   overflow: hidden;
 }
 
-label {
+label[class~="side"] {
   cursor: pointer;
   position: fixed;
   top: 0;
