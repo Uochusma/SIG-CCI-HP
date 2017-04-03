@@ -13,18 +13,64 @@ div[class="carousel-inner"] img{
     max-height: 100%;
 }
 
-div[class="carousel-inner"]{
-  /*max-height: 1000px;*/
+div[class="navbar-brand footer"]{
+  line-height: normal;
+  padding: 0px;
+  font-size: 11px;
+  clear: left;
 }
+
+@media screen and (min-width : 1536px) {/*横幅が1536pxを上回った時*/
+  div[class~="double-fw-Text"]{width: 35%;}
+}
+
 
 @media screen and (min-width : 768px){/*横幅が768pxを上回った時*/
     div[class="carousel-inner"] img{ max-height:250px;}
+    div[class="navbar-brand footer"]{font-size: 14px;}
 }
 
 @media screen and (min-width : 1024px) {/*横幅が1024pxを上回った時*/
-    div[class="carousel-inner"] img{ max-height:600px};
+    div[class="carousel-inner"] img{ max-height:600px;}
+    div[class="navbar-brand footer"]{font-size: 18px;}
 }
 
-@media screen and (min-width : 1536px) {/*横幅が1024pxを上回った時*/
-    div[class="carousel-inner"] img{ max-height:800px};
+@media screen and (min-width : 1536px) {/*横幅が1536pxを上回った時*/
+    div[class="carousel-inner"] img{ max-height:800px;}
+    div[class="navbar-brand footer"]{font-size: 18px;}
+}
+
+nav[class="navbar navbar-default navbar-fixed-bottom"]{
+  height:25px;
+  padding-right: 5px;
+}
+nav[class="navbar navbar-default navbar-fixed-bottom"] *{
+  min-height: 25px;
+  height: 25px;
+  font-size:5px;
+}
+@media screen and (min-height : 568px) {/*縦幅が568pxを上回った時*/
+    nav[class="navbar navbar-default navbar-fixed-bottom"]{
+      min-height: 30px;
+      height: 30px;
+      padding-right: 0px;
+    }
+    nav[class="navbar navbar-default navbar-fixed-bottom"] *{
+      padding: 0px;
+    }
+}
+
+@media screen and (min-height : 1024px) {/*縦幅が1024pxを上回った時*/
+    nav[class="navbar navbar-default navbar-fixed-bottom"]{
+      min-height: 40px;
+      height: 40px;
+      padding-left: 5px;
+      padding-right: 5px;
+      font-size: 20px;
+    }
+    nav[class="navbar navbar-default navbar-fixed-bottom"] *{
+      padding-left: 5px;
+      padding-right: 5px;
+      font-size: 20px;
+    }
 }
