@@ -135,8 +135,12 @@ div#footerArea {/*div の内 id=footerArea であるもの*/
   float: left;
   text-align: left;
   margin: 0 20px 0 0;
-  width: 200px;
+  width: 50%;
   /*min-height: 250px;*/
+  /*
+  text-align: left;
+  width: 210px;
+  */
 }
 /*メッセージ、コンテンツ用*/
 h5[class="MessageContent"]{
@@ -157,6 +161,15 @@ h5[class="Emphasis2"]{
   font-size: 24px;
   text-align: center;
   font-style: oblique;
+}
+
+h5[class="Emphasis3"]{
+  font-size: 40px;
+}
+
+h5[class="Sub"]{
+  font-size: 10px;
+  color: gray;
 }
 
 dd{
@@ -236,4 +249,9 @@ figure[id="0701Route"] img{
 
 figure[class~="pattern5"]{
   overflow: auto;
+}
+
+a[class~="Link1"]{
+  font-size: 24px;
+  text-decoration: underline;
 }

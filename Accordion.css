@@ -32,7 +32,27 @@ div[class="accordion"] div[class~="ac-cont"] {
 	background: #ddd;
 	padding: 0 10px;
 }
-div[class="accordion"] input:checked + .ac-cont {
+div[class="accordion"] input:checked ~ .ac-cont {/*  accordionクラス中の div の中の クリックされた input の下の ac-contクラス*/
 	height: auto;
 	padding: 10px;
+}
+
+div[class="accordion"] input:not(checked) +label  span[class="glyphicon glyphicon-chevron-right"]{
+	display: inline;
+	color: green;
+}
+
+
+div[class="accordion"] input:checked +label span[class="glyphicon glyphicon-chevron-right"]{
+	display: none;
+}
+
+div[class="accordion"] input:not(checked) +label  span[class="glyphicon glyphicon-chevron-down"]{
+	display: none;
+}
+
+
+div[class="accordion"] input:checked +label span[class="glyphicon glyphicon-chevron-down"]{
+	display: inline;
+	color: red;
 }
