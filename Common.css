@@ -143,6 +143,12 @@ div#footerArea {/*div の内 id=footerArea であるもの*/
   */
 }
 /*メッセージ、コンテンツ用*/
+h3[class~="download"]{
+    border-left: 5px solid aquamarine;
+    border-bottom: 1px solid #48832C;
+    padding-left: 7px;
+}
+
 h5[class="MessageContent"]{
   border-left: 3px solid #48832C;
   padding-left: 7px;
