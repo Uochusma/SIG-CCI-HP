@@ -160,7 +160,7 @@ h5[class="Emphasis"]{
 h5[class="Emphasis2"]{
   font-size: 24px;
   text-align: center;
-  font-style: oblique;
+  vertical-align:middle;
 }
 
 h5[class="Emphasis3"]{
@@ -225,6 +225,15 @@ div[class~="row"] img[class~="single"]{
     height: 40%;
     text-align: center;
   }
+
+  img[id="fw_table"]{
+    position: relative;
+    left: -30px;
+    max-width: 120%;
+    width: 120%;
+    height: auto;
+  }
+
 }
 
 @media screen and (min-width : 1024px) {/*横幅が1024pxを上回った時*/
@@ -235,6 +244,14 @@ div[class~="row"] img[class~="single"]{
   div[class~="row"] img[class~="single"]{
     width: 45%;
     height: 45%;
+  }
+
+  img[id="fw_table"]{
+    position: relative;
+    left: -100px;
+    max-width: 160%;
+    width: 160%;
+    height: auto;
   }
 }
 
@@ -254,4 +271,8 @@ figure[class~="pattern5"]{
 a[class~="Link1"]{
   font-size: 24px;
   text-decoration: underline;
+}
+
+section[class~="comment_item_fw"]{
+
 }

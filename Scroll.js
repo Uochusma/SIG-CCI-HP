@@ -4,7 +4,7 @@
     var href= $(this).attr("href");
     var offset = $(this).attr("data-offset");
     var target = $(href == "#" || href == "" ? 'html' : href);
-    var position = target.offset().top-50;//通常より50ピクセル上がスクロールの目的地
+    var position = target.offset().top-60;//通常より60ピクセル上がスクロールの目的地
     $("html, body").animate({scrollTop:position}, speed, "swing");
     return false;
   });

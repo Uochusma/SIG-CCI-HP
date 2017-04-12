@@ -33,7 +33,7 @@ label[class~="side"] {
   left: 0;
 }
 
-.open {/*ドロワーボタンが開く前の状態*/
+.open.side {/*ドロワーボタンが開く前の状態*/
   z-index: 1036;/**ヘッダーバーの z-index が 1030 なのでそれ以上にする必要がある*/
   width: 50px;
   height: 50px;

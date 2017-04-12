@@ -6,35 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
-    <div class="accordion">
-<div class="ac-content">
-<label for="ac-cap1">1</label>
-<input id="ac-cap1" type="checkbox">
-<div class="ac-cont">
-<p>コンテンツ1</p>
-</div>
-<label for="ac-cap2">2</label>
-<input id="ac-cap2" type="checkbox">
-<div class="ac-cont">
-<p>コンテンツ2</p>
-</div>
-<label for="ac-cap3">3</label>
-<input id="ac-cap3" type="checkbox">
-<div class="ac-cont">
-<p>コンテンツ3</p>
-</div>
-<label for="ac-cap4">4</label>
-<input id="ac-cap4" type="checkbox">
-<div class="ac-cont">
-<p>コンテンツ4</p>
-</div>
-<label for="ac-cap5">5</label>
-<input id="ac-cap5" type="checkbox">
-<div class="ac-cont">
-<p>コンテンツ5</p>
-</div>
-<!--ac-content--></div>
-<!--accordion--></div>
-  <link rel="stylesheet" href="Accordion.css">
+    <!-- Split button -->
+    <div class="btn-group">
+      <button type="button" class="btn btn-danger">Action</button>
+      <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <span class="caret"></span>
+        <span class="sr-only">Toggle Dropdown</span>
+      </button>
+      <ul class="dropdown-menu">
+        <li><a href="#">Action</a></li>
+        <li><a href="#">Another action</a></li>
+        <li><a href="#">Something else here</a></li>
+        <li role="separator" class="divider"></li>
+        <li><a href="#">Separated link</a></li>
+      </ul>
+    </div>
+<!-- BootstrapのCSS読み込み -->
+ <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+ <!-- jQuery読み込み -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+ <!-- BootstrapのJS読み込み -->
+ <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 </body>
 </html>
