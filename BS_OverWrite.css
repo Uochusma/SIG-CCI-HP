@@ -77,5 +77,5 @@ nav[class="navbar navbar-default navbar-fixed-bottom"] *{
 
 /* スライドの横幅を縮める */
 .carousel{
-  width: 90%;
+  width: 100%;
 }

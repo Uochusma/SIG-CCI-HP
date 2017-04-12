@@ -1,6 +1,6 @@
 /*すべてのページに共通する内容(ヘッダー、パンくずリスト)を記述*/
 body{
-  padding-bottom: 15%;
+  padding-bottom: 70px;
 }
 
 .pankuzu {/*pankuzuクラス*/
@@ -158,8 +158,8 @@ h5[class="Emphasis"]{
 }
 
 h5[class="Emphasis2"]{
-  font-size: 24px;
-  text-align: center;
+  font-size: 28px;
+  font-weight:bold;
   vertical-align:middle;
 }
 
