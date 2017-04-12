@@ -277,11 +277,47 @@ a[class~="Link1"]{
   font-size: 24px;
   text-decoration: underline;
 }
+@media screen and (min-width : 1024px) {/*横幅が1024pxを上回った時*/
+  p.item_txt {
+      height: 120px;
+  }
+
 
 /* fieldWork.html*/
+  p.item_txt_lg {
+      height: 150px;
+  }
+}
 
+h4.fw-title {
+      font-size: 23px;
+      font-weight: bold;
+  }
+
+  h4.fw-title-sm {
+      font-size: 18px;
+      font-weight: bold;
+      margin-top: 15px;
+  }
+@media screen and (min-width : 1024px) {/*横幅が1024pxを上回った時*/
+  h4.fw-title {
+      font-size: 26px;
+      font-weight: bold;
+  }
+
+  h4.fw-title-sm {
+      font-size: 22px;
+      font-weight: bold;
+      margin-top: 15px;
+  }
+}
 
 /* registration.html */
 .warning{
   color:red;
+}
+@media screen and (min-width : 1024px) {/*横幅が1024pxを上回った時*/
+  hr.hr-sm {
+    display: inline;
+  }
 }
