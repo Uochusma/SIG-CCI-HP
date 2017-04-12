@@ -1,6 +1,6 @@
 /*すべてのページに共通する内容(ヘッダー、パンくずリスト)を記述*/
 body{
-  padding-bottom: 70px;
+  padding-bottom: 15%;
 }
 
 .pankuzu {/*pankuzuクラス*/
@@ -152,14 +152,19 @@ h5[class="MessageContent"]{
   float: left;
 }
 
+h5[class="MessageContent2"]{
+  border-bottom: 3px solid grey;
+  float: left;
+}
+
 h5[class="Emphasis"]{
   font-size: 18px;
   text-align: center;
 }
 
 h5[class="Emphasis2"]{
-  font-size: 28px;
-  font-weight:bold;
+  font-size: 24px;
+  text-align: center;
   vertical-align:middle;
 }
 
@@ -273,17 +278,10 @@ a[class~="Link1"]{
   text-decoration: underline;
 }
 
-p.item_txt {
-    height: 150px;
-}
-
-h4.fw-title {
-    font-size: 26px;
-    font-weight: bold;
-}
-
-.fw-box {
-    margin-top: 40px;
-}
-
 /* fieldWork.html*/
+
+
+/* registration.html */
+.warning{
+  color:red;
+}
