@@ -41,15 +41,15 @@ div[class="navbar-brand footer"]{
 }
 
 nav[class="navbar navbar-default navbar-fixed-bottom"]{
-  height:25px;
+  height:15px;
   padding-right: 5px;
 }
 nav[class="navbar navbar-default navbar-fixed-bottom"] *{
-  min-height: 25px;
-  height: 25px;
+  min-height: 20px;
+  height: 20px;
   font-size:5px;
 }
-@media screen and (min-height : 568px) {/*縦幅が568pxを上回った時*/
+@media screen and (min-width:  : 568px) {/*縦幅が568pxを上回った時*/
     nav[class="navbar navbar-default navbar-fixed-bottom"]{
       min-height: 30px;
       height: 30px;
@@ -60,7 +60,7 @@ nav[class="navbar navbar-default navbar-fixed-bottom"] *{
     }
 }
 
-@media screen and (min-height : 1024px) {/*縦幅が1024pxを上回った時*/
+@media screen and (min-width:  : 1024px) {/*縦幅が1024pxを上回った時*/
     nav[class="navbar navbar-default navbar-fixed-bottom"]{
       min-height: 40px;
       height: 40px;

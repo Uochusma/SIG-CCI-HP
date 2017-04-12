@@ -273,6 +273,17 @@ a[class~="Link1"]{
   text-decoration: underline;
 }
 
-section[class~="comment_item_fw"]{
-
+p.item_txt {
+    height: 150px;
 }
+
+h4.fw-title {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.fw-box {
+    margin-top: 40px;
+}
+
+/* fieldWork.html*/
