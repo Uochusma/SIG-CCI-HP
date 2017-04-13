@@ -9,6 +9,73 @@ body{
   padding-top: 10%;
 }
 
+
+a[class="navbar-brand"][href="http://www.itolab.nitech.ac.jp/SIG-CCI/"] p{
+  /**/
+  background: #EEE;
+  border: 2px solid #DDD;
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  color: #111;
+  padding: 5px;
+  transition: background-color 0.5s, color 0.5s;
+  /**/
+  /*
+  background: -moz-linear-gradient(top,#BFD9E5, #3D95B7 50%,#0080B3 50%,#0099CC);
+	background: -webkit-gradient(linear, left top, left bottom, from(#BFD9E5), color-stop(0.5,#3D95B7), color-stop(0.5,#0080B3), to(#0099CC));
+	color: #FFF;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border: 1px solid #0099CC;
+	-moz-box-shadow: 1px 1px 1px rgba(000,000,000,0.3),inset 0px 0px 3px rgba(255,255,255,0.5);
+	-webkit-box-shadow: 1px 1px 1px rgba(000,000,000,0.3),inset 0px 0px 3px rgba(255,255,255,0.5);
+	text-shadow: 0px 0px 3px rgba(0,0,0,0.5);
+  padding: 5px;
+  /**/
+}
+
+a[class="navbar-brand"][href="http://www.itolab.nitech.ac.jp/SIG-CCI/"] p:hover{
+  background: orange;
+  border: 2px solid #DDD;
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  color: white;
+  padding: 5px;
+}
+
+ul[class="nav navbar-nav"] a[href="index.html"]::before{
+  font-family: 'Glyphicons Halflings';
+  content: "\e021";/*Halfings での　家マーク*/
+}
+
+ul[class="nav navbar-nav"] a[href="about.html"]::before{
+  font-family: 'Glyphicons Halflings';
+  content: "\e022";/*Halfings での　書類マーク*/
+}
+
+ul[class="nav navbar-nav"] a[href="prepare.html"]::before{
+  font-family: 'Glyphicons Halflings';
+  content: "\e043";/*Halfings での　辞書マーク*/
+}
+
+ul[class="nav navbar-nav"] a[href="fieldWork.html"]::before{
+  font-family: 'Glyphicons Halflings';
+  content: "\e199";/*Halfings での　木マーク*/
+}
+
+ul[class="nav navbar-nav"] a[href="traffic.html"]::before{
+  font-family: 'Glyphicons Halflings';
+  content: "\e062";/*Halfings での　マーカーマーク*/
+}
+
+ul[class="nav navbar-nav"] a[href="registration.html"]::before{
+  font-family: 'Glyphicons Halflings';
+  content: "\e067";/*Halfings での　ペンマーク*/
+}
+
 @media screen and (max-width : 800px) {/*横幅が800pxを下回った時*/
     .pankuzu{ padding-top: 15%;}
 }
