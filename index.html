@@ -17,7 +17,7 @@
     <div id="loader">
       <img src="img-loading.gif" width="80" height="80" alt="Now Loading..." />
       <p>Now Loading...</p>
-      <p>６月３０日開催！</p>
+      <p id="Timer">６月３０日開催！</p>
     </div>
   </div>
   <!-- ロード画面終了 -->
@@ -138,45 +138,45 @@
           <li><a href="registration.html">参加申し込み</a></li>
         </ul>
         <!--h3>過去の研究会</h3-->
-        <h3>関連</h3>
+        <h3>関連リンク</h3>
         <ul>
           <li><a href="http://www.itolab.nitech.ac.jp/SIG-CCI/confs/sig-cci1.html" target="_blank">第1回市民共創知研究会@岩手県遠野市 遠野ふるさと村</a></li>
           <li><a href="https://mirai-making.herokuapp.com" target="_blank">みらいらぼ</a></li>
           <li><a href="https://tsushimap.herokuapp.com/" target="_blank" >TsushiMAP(つしまっぷ)</a></li>
-          <li><a href="https://www.facebook.com/groups/140921016407990/" target="_blank" >Facebookページ</a></li>
+          <li><a href="https://www.facebook.com/events/323323891417936/" target="_blank" >Facebookページ</a></li>
         </ul>
 
         <h3 class="download">ダウンロード</h3>
         <!-- Split button -->
         <!-- 研究会のしおり -->
         <div class="btn-group">
-          <button type="button" class="btn btn-info" onclick="window.open('Files/Index/20170324_研究会のしおり.pdf')">研究会のしおり</button>
+          <button type="button" class="btn btn-info" onclick="window.open('Files/Index/20170415_SIGCCI02_Guide.pdf')">研究会のしおり</button>
           <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
             <span class="caret"></span>
             <span class="sr-only">Toggle Dropdown</span>
           </button>
           <ul class="dropdown-menu">
-            <li><a href="Files/About/20170324_研究会のしおり.pdf" target="_blank">オープン</a></li>
-            <li><a href="Files/About/20170324_研究会のしおり.pdf" download="20170324_研究会のしおり.pdf">ダウンロード</a></li>
+            <li><a href="Files/About/20170415_SIGCCI02_Guide.pdf" target="_blank">オープン</a></li>
+            <li><a href="Files/About/20170415_SIGCCI02_Guide.pdf" download="20170415_SIGCCI02_Guide.pdf">ダウンロード</a></li>
           </ul>
         </div>
         <br><br>
         <!-- 論文募集要項 -->
         <div class="btn-group">
-          <button type="button" class="btn btn-info" onclick="window.open('Files/Index/20170330_CFP案.pdf')">論文募集要項　</button>
+          <button type="button" class="btn btn-info" onclick="window.open('Files/Index/20170415_SICCCI02_CFP.pdf')">論文募集要項　</button>
           <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
             <span class="caret"></span>
             <span class="sr-only">Toggle Dropdown</span>
           </button>
           <ul class="dropdown-menu">
-            <li><a href="Files/Index/20170330_CFP案.pdf" target="_blank">オープン</a></li>
-            <li><a href="Files/Index/20170330_CFP案.pdf" download="20170324_研究会のしおり.pdf">ダウンロード</a></li>
+            <li><a href="Files/Index/20170415_SICCCI02_CFP.pdf" target="_blank">オープン</a></li>
+            <li><a href="Files/Index/20170415_SICCCI02_CFP.pdf" download="20170415_SICCCI02_CFP.pdf">ダウンロード</a></li>
           </ul>
         </div>
       </div>
       <!-- 右メニュー終わり -->
       <div class="col-xs-12 col-md-8 col-md-pull-4">
-
+        <br><br>
         <h5 class="Emphasis2" style="font-size: 30px;">
           みらいらぼin対馬
         ～対馬の宝と向かい合う3日間
@@ -202,7 +202,8 @@
       <div class="container-fluid">
         <div class="navbar-brand">
            <p>
-             Copyright © 2016 <a>JSAI SIG-CCI</a>. Some Rights Reserved.<br>
+             COPYRIGHT 2017 JSAI Special Interest Group on Crowd Co-creation<br>
+             Intelligence (SIG-CCI) ALLRIGHTS RESERVED.
            </p>
         </div>
         <div class="navbar-brand">
@@ -224,6 +225,7 @@
    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
    <script src="Scroll.js"></script>
    <script src="Loading.js"></script>
+   <script src="Timer.js"></script>
    <link rel="stylesheet" href="BS_OverWrite.css">
    <link rel="stylesheet" href="FlexBoxStyle.css">
    <link rel="stylesheet" href="base1.css">
