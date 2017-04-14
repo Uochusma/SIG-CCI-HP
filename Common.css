@@ -76,8 +76,22 @@ ul[class="nav navbar-nav"] a[href="registration.html"]::before{
   content: "\e067";/*Halfings での　ペンマーク*/
 }
 
+ul[class="nav navbar-nav"] a[href="sponsor.html"]::before{
+  font-family: 'Glyphicons Halflings';
+  content: "\e148";/*Halfings での　ドルマーク*/
+}
+
+ul[class="nav navbar-nav"] a[href="https://form.jotform.me/70938432366462"]::before{
+  font-family: 'Glyphicons Halflings';
+  content: "\e171";/*Halfings での　紙飛行機マーク*/
+}
+
+ul[class="nav navbar-nav"] a[href="https://form.jotform.me/70938432366462"]:hover{
+  color: red;
+}
+
 @media screen and (max-width : 800px) {/*横幅が800pxを下回った時*/
-    .pankuzu{ padding-top: 15%;}
+    .pankuzu{ padding-top: 25%;}
 }
 
 @media screen and (max-width : 420px){/*横幅が420pxを下回った時*/
@@ -85,7 +99,15 @@ ul[class="nav navbar-nav"] a[href="registration.html"]::before{
 }
 
 @media screen and (min-width : 1000px) {/*横幅が1000pxを上回った時*/
-    .pankuzu{ padding-top: 5%;}
+    .pankuzu{ padding-top: 20%;}
+}
+
+@media screen and (min-width : 1440px) {/*横幅が1440pxを上回った時*/
+    .pankuzu{ padding-top: 10%;}
+}
+
+@media screen and (min-width : 1680px) {/*横幅が1680pxを上回った時*/
+    .pankuzu{ padding-top: 7.5%;}
 }
 
 @media screen and (min-width : 2000px) {/*横幅が2000pxを上回った時*/
