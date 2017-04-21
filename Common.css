@@ -372,6 +372,12 @@ a[class~="Link1"]{
   font-size: 24px;
   text-decoration: underline;
 }
+
+a[class~="Link2"]{
+  color: magenta;
+  text-decoration: underline;
+}
+
 @media screen and (min-width : 1224px) {/*横幅が1024pxを上回った時*/
   p.item_txt {
       height: 120px;
