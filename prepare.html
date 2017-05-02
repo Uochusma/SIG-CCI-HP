@@ -10,7 +10,7 @@
 </head>
   <body>
 
-    <div id="wrap" class="container-fluid">
+    <div id="wrap" class="">
       <!-- ヘッダー(ナビバー )開始 -->
       <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
@@ -30,6 +30,7 @@
             <ul class="nav navbar-nav">
               <li><a href="index.html">ホーム</a></li>
               <li><a href="about.html">研究会について</a></li>
+              <li><a href="schedule.html">スケジュール</a></li>
               <li><a href="prepare.html">対馬についての予習</a></li>
               <li><a href="fieldWork.html">フィールドワーク</a></li>
               <li><a href="traffic.html">交通案内</a></li>
@@ -62,23 +63,18 @@
         </div>
       </nav>
       <!-- ヘッダー終了 -->
-
-        <!-- パンくずリスト開始 -->
-        <div>
-          <p class="pankuzu">
-            <a href="http://www.itolab.nitech.ac.jp/SIG-CCI/">市民共創知 研究会 Web</a>
-            &nbsp;&nbsp;&gt;&nbsp;&nbsp;
-            <a href="index.html">第２回 研究会 Web</a>
-            &nbsp;&nbsp;&gt;&nbsp;&nbsp;
-            <a href="prepare.html">対馬についての予習</a>
-          </p>
-        </div>
-        <!-- パンくずリスト終了 -->
-
     <div class="contents">
+      <div class="ribbon-wrap">
+        <div class="content-wrap">
+          <ol class="ribbon-breadcrumb-list">
+            <li class="ribbon-breadcrumb-item"><a href="http://www.itolab.nitech.ac.jp/SIG-CCI/" class="ribbon-breadcrumb">市民共創知 研究会 Web</a></li>
+            <li class="ribbon-breadcrumb-item"><a href="index.html" class="ribbon-breadcrumb">第２回 研究会 Web</a></li>
+            <li class="ribbon-breadcrumb-item Last"><span class="ribbon-breadcrumb">対馬についての予習</span></li>
+          </ol>
+          <h1 class="ribbon-banner"><span class="ribbon-banner-text">対馬についての予習</span></h1>
+        </div>
+      </div>
         <article>
-          <h1>対馬についての予習</h1>
-
           <section id="article1">
             <h3>対馬の概要</h3>
 
@@ -529,16 +525,7 @@
 
           <section id="article3">
             <h3>主要参加者紹介</h3>
-            <section class="comment_item">
-              <!--
-              <div class="item_img">
-                  <img src="Pictures/Person/Fukuta-pic.jpg" width="60%" height="60%" alt="写真" class="img-responsive">
-                  <!-
-                <img src="Pictures/Person/Fukuta-pic.jpg" width="60%" height="60%" alt="写真">
-              <!
-
-              </div>
-              -->
+            <section class="comment_item"><!-- 福田先生　紹介開始 -->
               <div class="row">
                 <div class="col-md-6 col-sm-6">
                   <img src="Pictures/Person/Fukuta-pic.jpg" width="60%" height="60%" alt="写真">
@@ -567,13 +554,13 @@
                   <h5 class="MessageContent">研究会参加者に向けてメッセージ</h5>
                   <br><br>
                   <p class="txt">
-                    わたしたちの社会や生活にある様々なことをどのように概念としてまとめられるかという議論は、古くはアリストテレスの時代にさかのぼる哲学の分野でも研究されてきました。
+                    わたしたちの社会や生活にある様々なことをどのように概念としてまとめられるかという議論は、古くはアリストテレスの時代にさかのぼる哲学の分野でも研究されてきました。<br>
                     わたしたちが日々考え議論し考えを深めていく過程から、その骨格となるような大切な部分を上手に取り出して、
                     それを人工知能技術などもうまく使って将来の私たちの生活や議論そのものにも活用していく方法を、うまく組み立てて広めていければと考えています。
                   </p>
                 </div>
-            </section>
-            <section class="comment_item">
+            </section><!-- 福田先生　紹介終了 -->
+            <section class="comment_item"><!-- 白松先生　紹介開始 -->
               <div class="row">
                   <div class="col-md-6 col-sm-6">
                   <img src="Pictures/Person/siramatu2017.jpg"alt="写真">
@@ -603,11 +590,45 @@
                   <br><br>
                   <p class="txt">
                     前回の遠野では、飲み会の軽いノリから、白松研の学生と農家民宿の経営者の方が鍬動作分析の研究プロジェクトをスタートさせました。
-                    次回の対馬では、世の中の社会課題に関する背景情報をうまく共有するためのシステムの試作について話題提供する予定です。
+                    次回の対馬では、世の中の社会課題に関する背景情報をうまく共有するためのシステムの試作について話題提供する予定です。<br>
                     ぜひ、参加者の皆様との対話を通じて、我々が開発中の「技術シーズ」をうまく活かせる仕組みを考えていきたいと考えております！
                   </p>
                 </div>
-            </section>
+            </section><!-- 白松先生　紹介終了 -->
+            <section class="comment_item"><!-- 藤田先生　紹介開始 -->
+              <div class="row">
+                  <div class="col-md-6 col-sm-6">
+                  <img src="Pictures/Person/fujita.jpg"alt="写真">
+                </div>
+                <div class="col-md-6 col-sm-6">
+                  <h5 class="Emphasis3"><span>東京農工大学</span><br>藤田 桂英</h5>
+                </div>
+              </div>
+              <div class="item_txt">
+                  <h5 class="MessageContent">所属</h5>
+                  <br><br>
+                  <p class="txt">
+                    東京農工大学 工学研究院 准教授
+                  </p>
+                  <h5 class="MessageContent">専門分野</h5>
+                  <br><br>
+                  <p class="txt">
+                    人工知能 マルチエージェント 自動交渉 自然言語処理
+                  </p>
+                  <h5 class="MessageContent">専門分野説明</h5>
+                  <br><br>
+                  <P class="txt">
+                    たくさんの人工知能が強調する場合にどのような仕組みが有効か、人工知能同士が対立した場合に自動的に交渉するにはどうすればよいかを研究しています。さらに、それらを社会実装するための仕組みや人間の集団の意思決定を支援するシステムの研究開発をしています。
+                  </p>
+                  <h5 class="MessageContent">研究会参加者に向けてメッセージ</h5>
+                  <br><br>
+                  <p class="txt">
+                    研究会に参加することで、人工知能、マルチエージェントシステム、自然言語処理などの研究者がもつ最新技術と対馬など様々な地域にある諸問題がマッチし、新しいプロジェクトが始まるきっかけ作りになると考えております。
+                    この研究会は、フィールドワークや研究発表、対話を通じてその地域が抱える問題を肌で感じられるだけではなく、地域問題と最新技術がマッチした場合は、それをプロジェクトとして継続させる仕組みも準備しています。<br>
+                    まずは、第2回研究会に参加して、たくさんの人や課題に触れ合い、新しい出会いを体験してください。
+                  </p>
+                </div>
+            </section><!-- 藤田先生　紹介終了 -->
           </section>
 
           <section id="article4">

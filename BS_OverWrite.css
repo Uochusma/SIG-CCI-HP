@@ -74,8 +74,28 @@ nav[class="navbar navbar-default navbar-fixed-bottom"] *{
       font-size: 20px;
     }
 }
-
-/* スライドの横幅を縮める */
+/*
+@media screen and (max-width:1024px) {
+    .navbar-collapse.collapse {
+        display: block;
+    }
+    .navbar-toggle {
+      display:inline;
+    }
+}
+/**/
+/* スライドの横幅を縮める 開始*/
 .carousel{
   width: 90%;
 }
+/* スライドの横幅を縮める 終了*/
+
+/* スライドのワープスクロールボタン 開始*/
+.carousel-indicators .active{
+  background-color: orange;
+}
+
+.carousel-indicators li{
+  border-color: aqua;
+}
+/* スライドのワープスクロールボタン 終了*/
