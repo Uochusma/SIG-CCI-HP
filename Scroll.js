@@ -7,14 +7,17 @@
     var windowWidth = window.innerWidth;
     offset2 = 60
     //console.log(windowWidth);
-    if(windowWidth >= 1560){
-      offset2 = 110;
-    }
-    else if(windowWidth >= 768){
+    if(windowWidth >= 1024){
       offset2 = 160;
     }
+    else if(windowWidth > 768){
+      offset2 = 200;
+    }
+    else if(windowWidth > 414){
+      offset2 = 170;
+    }
 
-    var position = target.offset().top-offset2;//通常より60ピクセル上がスクロールの目的地
+    var position = target.offset().top-offset2;//通常より offset2 ピクセル上がスクロールの目的地
     $("html, body").animate({scrollTop:position}, speed, "swing");
     return false;
   });

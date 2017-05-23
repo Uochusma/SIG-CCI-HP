@@ -62,6 +62,11 @@ ul[class="nav navbar-nav"] a[href="traffic.html"]::before{
   content: "\e062";/*Halfings での　マーカーマーク*/
 }
 
+ul[class="nav navbar-nav"] a[href="lodge.html"]::before{
+  font-family: 'Glyphicons Halflings';
+  content: "\e139";/*Halfings での　カバンマーク*/
+}
+
 ul[class="nav navbar-nav"] a[href="registration.html"]::before{
   font-family: 'Glyphicons Halflings';
   content: "\e067";/*Halfings での　ペンマーク*/
@@ -368,6 +373,11 @@ a[class~="Link2"]{
   text-decoration: underline;
 }
 
+a[class~="Link3"]{
+  font-size: 16px;
+  font-weight: bold;
+}
+
 @media screen and (min-width : 1224px) {/*横幅が1024pxを上回った時*/
   p.item_txt {
       height: 120px;
@@ -414,7 +424,11 @@ h4.fw-title {
   }
 }
 
-
+/* lodge.html */
+a[class~="Link3"]::before{
+  font-family: 'Glyphicons Halflings';
+  content: "\e165";/*Halfings での　ペンマーク*/
+}
 
 /*タイトルバー　開始*/
 div[class="contents"]{
@@ -428,6 +442,7 @@ div[class="ribbon-wrap"]{
 h1[class="ribbon-banner"]{
   text-align: center;
   font-size: 25px;
+  font-weight: bold;
 }
 
 ol[class="ribbon-breadcrumb-list"]{
@@ -462,9 +477,15 @@ ol[class="ribbon-breadcrumb-list"] li a:hover{
   }
 }
 
+@media screen and (min-width : 1200px) {/*横幅が1024pxを上回った時*/
+  div[class="contents"]{
+    margin-top: 13%;
+  }
+}
+
 @media screen and (min-width : 1536px) {/*横幅が1536pxを上回った時*/
   div[class="contents"]{
-    margin-top: 5.75%;
+    margin-top: 8.5%;
   }
   h1[class="ribbon-banner"]{
     font-size: 50px;
