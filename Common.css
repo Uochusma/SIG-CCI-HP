@@ -77,6 +77,15 @@ ul[class="nav navbar-nav"] a[href="sponsor.html"]::before{
   content: "\e148";/*Halfings での　ドルマーク*/
 }
 
+ul[class="nav navbar-nav"] a[href="http://www.itolab.nitech.ac.jp/SIG-CCI/submission.html"]::before{
+  font-family: 'Glyphicons Halflings';
+  content: "\e086";/*Halfings での　インフォメーションマーク*/
+}
+
+ul[class="nav navbar-nav"] a[href="http://www.itolab.nitech.ac.jp/SIG-CCI/submission.html"]:hover{
+  color: red;
+}
+
 ul[class="nav navbar-nav"] a[href="https://form.jotform.me/70938432366462"]::before{
   font-family: 'Glyphicons Halflings';
   content: "\e171";/*Halfings での　紙飛行機マーク*/
