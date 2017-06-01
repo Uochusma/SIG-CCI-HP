@@ -557,5 +557,10 @@ span.ribbon-breadcrumb {
 a.ribbon-breadcrumb {
     padding-right: 5px;
 }
+.top-title {
+  font-weight: 800;
+  text-align: center;
+  margin: 30px 0px;
+}
 
 /*タイトルバー　終了*/
