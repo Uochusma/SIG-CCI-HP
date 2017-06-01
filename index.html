@@ -32,65 +32,69 @@
   <!-- ロード画面終了 -->
 
   <!-- 通常画面開始 -->
-  <div id="wrap" class="container-fluid">
+  <div id="wrap">
     <!-- ヘッダー(ナビバー )開始 -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <!--タイトル-->
-          <a class="navbar-brand" href="http://www.itolab.nitech.ac.jp/SIG-CCI/"><p>市民共創知研究会</p></a>
-          <!--トグルボタンの設置-->
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-content">
-            <span class="icon-bar"></span><!-- トグルボタンの横棒　その１  -->
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
+    <div class="nav-ber">
+      <nav class="navbar navbar-default navbar-fixed-top" style="position: inherit;">
+        <div class="container">
+          <div class="navbar-header">
+            <!--タイトル-->
+            <a class="navbar-brand" href="http://www.itolab.nitech.ac.jp/SIG-CCI/"><p>市民共創知研究会</p></a>
+            <!--トグルボタンの設置-->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-content">
+              <span class="icon-bar"></span><!-- トグルボタンの横棒　その１  -->
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
 
-        <div id="nav-content" class="collapse navbar-collapse">
-          <!--リンクのリスト メニューリスト-->
-          <ul class="nav navbar-nav">
-            <li><a href="index.html">ホーム</a></li>
-            <li><a href="about.html">研究会について</a></li>
-            <li><a href="schedule.html">スケジュール</a></li>
-            <li><a href="prepare.html">対馬についての予習</a></li>
-            <li><a href="fieldWork.html">フィールドワーク</a></li>
-            <li><a href="traffic.html">交通案内</a></li>
-            <li><a href="lodge.html">宿泊案内</a></li>
-            <li><a href="sponsor.html">スポンサー</a></li>
-            <li><a href="registration.html">参加申し込み</a></li>
-            <li><a href="http://www.itolab.nitech.ac.jp/SIG-CCI/submission.html">原稿執筆案内</a></li>
-            <li><a href="https://form.jotform.me/70938432366462">原稿投稿</a></li>
-          </ul>
-          <!--
-          <ul class="nav navbar-nav navbar-right ExLink">
-            <li><a href="https://form.jotform.me/70938432366462">原稿投稿</a></li>
-          </ul>
-        -->
-        </div>
+          <div id="nav-content" class="collapse navbar-collapse">
+            <!--リンクのリスト メニューリスト-->
+            <ul class="nav navbar-nav">
+              <li><a href="index.html">ホーム</a></li>
+              <li><a href="about.html">研究会について</a></li>
+              <li><a href="schedule.html">スケジュール</a></li>
+              <li><a href="prepare.html">対馬についての予習</a></li>
+              <li><a href="fieldWork.html">フィールドワーク</a></li>
+              <li><a href="traffic.html">交通案内</a></li>
+              <li><a href="lodge.html">宿泊案内</a></li>
+              <li><a href="sponsor.html">スポンサー</a></li>
+              <li><a href="registration.html">参加申し込み</a></li>
+              <li><a href="http://www.itolab.nitech.ac.jp/SIG-CCI/submission.html">原稿執筆案内</a></li>
+              <li><a href="https://form.jotform.me/70938432366462">原稿投稿</a></li>
+            </ul>
+            <!--
+            <ul class="nav navbar-nav navbar-right ExLink">
+              <li><a href="https://form.jotform.me/70938432366462">原稿投稿</a></li>
+            </ul>
+          -->
+          </div>
 
-        <!-- サイドメニュー開始 -->
-        <input type="checkbox" id="navTgl" class="navbar-toggle">
-        <label for="navTgl" class="open side">≡</label>
-        <label for="navTgl" class="close"></label>
-        <nav class="menu">
-          <h2>menu</h2>
-          <ul>
-            <li><a href="#" class="scroll">ページトップ</a></li>
-          </ul>
-        <!-- サイドメニュー終了 -->
-        </nav>
-      </div>
-    </nav>
+          <!-- サイドメニュー開始 -->
+          <input type="checkbox" id="navTgl" class="navbar-toggle">
+          <label for="navTgl" class="open side">≡</label>
+          <label for="navTgl" class="close"></label>
+          <nav class="menu">
+            <h2>menu</h2>
+            <ul>
+              <li><a href="#" class="scroll">ページトップ</a></li>
+            </ul>
+          <!-- サイドメニュー終了 -->
+          </nav>
+        </div>
+      </nav>
+    </div>
     <!-- ヘッダー終了 -->
 
     <!-- パンくずリスト開始 -->
-    <div id="wrapper">
-      <p class="pankuzu">
-        <a href="http://www.itolab.nitech.ac.jp/SIG-CCI/">市民共創知 研究会 Web</a>
-        &nbsp;&nbsp;&gt;&nbsp;&nbsp;
-        <a href="index.html">第２回 研究会 Web</a>
-      </p>
+    <div class="ribbon-wrap" style="margin-top: -20px;">
+      <div class="content-wrap">
+        <ol class="ribbon-breadcrumb-list">
+          <li class="ribbon-breadcrumb-item"><a href="http://www.itolab.nitech.ac.jp/SIG-CCI/" class="ribbon-breadcrumb">市民共創知研究会HP</a></li>
+          <li class="ribbon-breadcrumb-item"><a href="index.html" class="ribbon-breadcrumb">ホーム</a></li>
+          <li class="ribbon-breadcrumb-item Last"><span class="ribbon-breadcrumb">研究会について</span></li>
+        </ol>
+      </div>
     </div>
     <!-- パンくずリスト終了 -->
     <!-- スライドショー開始 -->
@@ -174,7 +178,7 @@
         <br>
 
         <div class="text-center">
-          <div class="log-wrap" style="font-size: 16px;">
+          <div class="log-wrap" style="font-size: 13px;">
               <a href="https://www.jcrd.jp/" target="_blank" style="padding-top: 5px;">(財)地域活性化センター</a>
           </div>
         </div>

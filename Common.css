@@ -6,7 +6,6 @@ body{
 .pankuzu {/*pankuzuクラス*/
   margin: 0;
   text-align: left;
-  padding-top: 10%;
 }
 
 
@@ -95,29 +94,31 @@ ul[class="nav navbar-nav"] a[href="https://form.jotform.me/70938432366462"]:hove
   color: red;
 }
 
-@media screen and (max-width : 800px) {/*横幅が800pxを下回った時*/
+/*
+@media screen and (max-width : 800px) {横幅が800pxを下回った時
     .pankuzu{ padding-top: 25%;}
 }
 
-@media screen and (max-width : 420px){/*横幅が420pxを下回った時*/
+@media screen and (max-width : 420px){
     .pankuzu{ padding-top: 20%;}
 }
 
-@media screen and (min-width : 1000px) {/*横幅が1000pxを上回った時*/
+@media screen and (min-width : 1000px) {
     .pankuzu{ padding-top: 20%;}
 }
 
-@media screen and (min-width : 1440px) {/*横幅が1440pxを上回った時*/
+@media screen and (min-width : 1440px) {
     .pankuzu{ padding-top: 10%;}
 }
 
-@media screen and (min-width : 1680px) {/*横幅が1680pxを上回った時*/
+@media screen and (min-width : 1680px) {
     .pankuzu{ padding-top: 7.5%;}
 }
 
-@media screen and (min-width : 2000px) {/*横幅が2000pxを上回った時*/
+@media screen and (min-width : 2000px) {
     .pankuzu{ padding-top: 2.5%;}
 }
+*/
 
 .txt {/*txtクラス*/
   margin:0;
@@ -452,7 +453,8 @@ div[class="contents"]{
 }
 
 div[class="ribbon-wrap"]{
-  background-color:lightSeaGreen;
+  background-color: #f8f8f8;
+  border-bottom: thin ridge #f8f9f9;
 }
 
 h1[class="ribbon-banner"]{
@@ -471,7 +473,7 @@ ol[class="ribbon-breadcrumb-list"] li{
 }
 
 ol[class="ribbon-breadcrumb-list"] li a{
-  color: white;
+  color: #777;
 }
 
 ol[class="ribbon-breadcrumb-list"] li a:hover{
@@ -524,7 +526,7 @@ li[class="ribbon-breadcrumb-item"] ::after{
     border: 1px
     solid #333333;
     max-width: 50%;
-    font-size: 23px;
+    font-size: 20px;
     font-weight: 600;
     position: relative;
 }
@@ -537,6 +539,23 @@ li[class="ribbon-breadcrumb-item"] ::after{
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+.content {
+    margin-top: -20px;
+}
+
+ol.ribbon-breadcrumb-list {
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+span.ribbon-breadcrumb {
+    font-weight: 600;
+}
+
+a.ribbon-breadcrumb {
+    padding-right: 5px;
 }
 
 /*タイトルバー　終了*/
