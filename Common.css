@@ -1,11 +1,21 @@
 /*すべてのページに共通する内容(ヘッダー、パンくずリスト)を記述*/
 body{
-  padding-bottom: 15%;
+/*  padding-bottom: 15%;*/
 }
 
 .pankuzu {/*pankuzuクラス*/
   margin: 0;
   text-align: left;
+}
+
+footer {
+  background-color: #f8f8f8;
+  padding-top: 40px;
+}
+
+.footer-subtitle {
+  font-weight: 700;
+  font-size: 18px;
 }
 
 
@@ -573,6 +583,16 @@ a.navbar-brand.navbar-title {
     padding-left: 60px;
     font-size: 20px;
   }
+}
+
+label.open.side {
+    position: fixed;
+}
+
+.footer-list {
+  list-style: none;
+  line-height: 1.8;
+  margin-left: -40px;
 }
 
 /*タイトルバー　終了*/
