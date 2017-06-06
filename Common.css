@@ -287,20 +287,20 @@ h5[class="Sub"]{
   color: gray;
 }
 
-dd{
+dd[class~="list"]{
   font-size: 12px;
 }
 
 @media screen and (min-width : 768px){/*横幅が768pxを上回った時*/
-  dd{font-size: 14px;}
+  dd[class~="list"]{font-size: 14px;}
 }
 
 @media screen and (min-width : 1024px) {/*横幅が1024pxを上回った時*/
-  dd{font-size: 16px;}
+  dd[class~="list"]{font-size: 16px;}
 }
 
 @media screen and (min-width : 1536px) {/*横幅が1536pxを上回った時*/
-  dd{font-size: 18px;}
+  dd[class~="list"]{font-size: 18px;}
 }
 
 img[class~="logo"]{
